@@ -1,0 +1,13 @@
+.labelTag {
+    color: chartreuse;
+    font-weight: bold;
+}
+
+.labelBg {
+    background-color: yellow;
+    border: 1px solid red;
+}
+
+#hobbiesList {
+    display: none;
+}

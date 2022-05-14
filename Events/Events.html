@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="username">naveen</h1>
+    <button onclick="testClick()">click</button>
+    <button onclick="changeName('srinivas')">change name</button>
+    <h2 id="hovercolor" onmouseover="changeBgColor( )" onmouseout="removeBgColor( )">apply onmouse hover</h2>
+    <h2 id="changecolor" onmouseover="removeApplyBgColor('skyblue')" onmouseout="removeApplyBgColor('white')">remove apply the backgroung color</h2>
+    <hr>
+    <input type="text" onkeyup="getData()" onkeydown="showData()">
+
+    <p id="show"></p>
+    <input type="checkbox" id="hobbies" onclick="checkboxClick()">
+    <script src="./Events..js" ></script>
+</body>
+</html>
